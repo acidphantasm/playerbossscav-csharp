@@ -4,9 +4,7 @@ using SPTarkov.Reflection.Patching;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Generators;
 using SPTarkov.Server.Core.Helpers;
-using SPTarkov.Server.Core.Models.Eft.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
-using SPTarkov.Server.Core.Services;
 using SPTarkov.Server.Core.Utils;
 using SPTarkov.Server.Core.Utils.Cloners;
 
@@ -40,7 +38,7 @@ public class GeneratePlayerScavPatch : AbstractPatch
             return;
         
         var selectedRole = RandomUtil.GetRandomElement(PlayerBossScav.AllowedBosses);
-        var newTemplate = Cloner.Clone(BotHelper.GetBotTemplate(role));
+        var newTemplate = Cloner.Clone(BotHelper.GetBotTemplate(selectedRole));
         if (newTemplate is null)
             return;
         
