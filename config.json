@@ -1,5 +1,5 @@
 {
-  "Chance": 100,
+  "Chance": 5,
   "DisallowedBosses": [],
   "ValidBossListDontEditUseThisToCopyPasteValues": [
     "bossBoar",
