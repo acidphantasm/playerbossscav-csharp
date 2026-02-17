@@ -1,0 +1,22 @@
+{
+  "Chance": 100,
+  "DisallowedBosses": [],
+  "ValidBossListDontEditUseThisToCopyPasteValues": [
+    "bossBoar",
+    "bossBully",
+    "bossGluhar",
+    "bossKilla",
+    "bossKillaAgro",
+    "bossKnight",
+    "bossKojaniy",
+    "bossKolontay",
+    "bossPartisan",
+    "bossSanitar",
+    "bossTagilla",
+    "bossTagillaAgro",
+    "bossZryachiy",
+    "followerBigPipe",
+    "followerBirdEye",
+    "sectantPriest"
+  ]
+}
